@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'cheeseburgaregular';
+    src: url('./assets/webfontkit-20241007-122221/cheeseburga_demo-webfont.woff2') format('woff2'),
+         url('./assets/webfontkit-20241007-122221/cheeseburga_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'baron_kuffnerregular';
+    src: url('./assets/webfontkit-20241007-122221/webfontkit-20241010-135234/baron_kuffner-webfont.woff2') format('woff2'),
+         url('./assets/webfontkit-20241007-122221/webfontkit-20241010-135234/baron_kuffner-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    background: #f1f1f1;
+    margin-bottom: 8rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+.custom-scrollbar{
+    ::-webkit-scrollbar{
+        width: 0.4rem;
+    }
+    ::-webkit-scrollbar-track{
+        background: rgba(209,209,209,0.2);
+        border-radius: 1rem;
+        /* margin-top: 0.25rem;
+        margin-bottom: 4rem; */
+    }
+}
+
+.heritage{
+    ::-webkit-scrollbar-thumb{
+        background: #90FFAE;
+    }
+}
+
+.guardian{
+    ::-webkit-scrollbar-thumb{
+        background: #A4A8FF;
+    }
+}
