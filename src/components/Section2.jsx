@@ -32,13 +32,13 @@ const Section2 = () => {
             style={
                 {...style,
                     backgroundColor: '#353535',
-                    width: '1rem',
-                    height: '1.5rem',
-                    paddingLeft: '0.2rem',
-                    paddingRight: '0.2rem',
-                    paddingTop: '0.4rem',
-                    paddingBottom: '0.4rem',
-                    borderRadius: '0.2rem'
+                    width: '2rem',
+                    height: '3rem',
+                    paddingLeft: '0.4rem',
+                    paddingRight: '0.4rem',
+                    paddingTop: '0.8rem',
+                    paddingBottom: '0.8rem',
+                    borderRadius: '0.6rem'
                 }
             }
             onClick={onClick}
@@ -56,13 +56,13 @@ const Section2 = () => {
                 style={
                     {...style,
                         backgroundColor: '#353535',
-                        width: '1rem',
-                        height: '1.5rem',
-                        paddingLeft: '0.2rem',
-                        paddingRight: '0.2rem',
-                        paddingTop: '0.4rem',
-                        paddingBottom: '0.4rem',
-                        borderRadius: '0.2rem'
+                        width: '2rem',
+                        height: '3rem',
+                        paddingLeft: '0.4rem',
+                        paddingRight: '0.4rem',
+                        paddingTop: '0.8rem',
+                        paddingBottom: '0.8rem',
+                        borderRadius: '0.6rem'
                     }
                 }
                 onClick={onClick}
@@ -86,7 +86,7 @@ const Section2 = () => {
     return (
         <div className='relative flex flex-col items-center -top-1/4 z-10'>
             {/* Navbar */}
-            <div style={{fontFamily: 'Montserrat'}} className='flex gap-2 font-extrabold text-xs mb-4'>
+            <div style={{fontFamily: 'Montserrat'}} className='flex gap-4 font-extrabold text-xl mb-4'>
 
                 <small
                 onClick={() => handleCategoryClick('all')}
@@ -121,13 +121,13 @@ const Section2 = () => {
             </div>
 
             {/* Image Slider */}
-            <div className='w-5/6 max-w-3xl px-8'>
+            <div className='w-5/6 px-8'>
                 <Slider {...settings}>
                     {
                     gallery.map((photo, index) => {
                         return (
-                            <div key={index} className='px-1 flex items-center'>
-                                <div className='bg-gray-400 aspect-[5/3] rounded-md overflow-hidden w-full' key={index}>
+                            <div key={index} className='px-4 flex items-center'>
+                                <div className='bg-gray-400 aspect-[5/3] rounded-2xl overflow-hidden w-full' key={index}>
                                     <img className='w-full h-full object-cover'
                                     src={photo}
                                     alt={`Dog ${index + 3}`} />

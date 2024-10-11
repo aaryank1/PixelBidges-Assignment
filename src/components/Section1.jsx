@@ -9,10 +9,10 @@ const Section1 = () => {
       className='rounded-lg overflow-hidden'
         style={{
           position: 'absolute',
-          top: '-10%',
+          top: '-12%',
           left: '-5%',
           right: '-6%',
-          bottom: '25%',
+          bottom: '35%',
           background: 'radial-gradient(circle, rgba(254,255,83,1) 0%, rgba(253,195,45,1) 65%)',
           transform: 'rotate(8deg)',
           transformOrigin: 'center center',
@@ -22,7 +22,7 @@ const Section1 = () => {
 
       <div className="relative z-10">
         <div className='flex justify-center'>
-          <div style={{backgroundColor: 'rgb(255, 255, 255, 0.5)'}} className='mt-2 w-1/12 h-1 rounded-r-full rounded-l-full'></div>
+          <div style={{backgroundColor: 'rgb(255, 255, 255, 0.5)'}} className='mt-4 w-1/12 h-3 rounded-r-full rounded-l-full'></div>
         </div>
         
         <div className='flex justify-center mt-4'>
@@ -41,10 +41,10 @@ const Section1 = () => {
               />
             </div>
           </div>
-          <div className='flex flex-col justify-start gap-2 items-end pr-4'>
-            <p style={{fontFamily: 'Montserrat', fontWeight: '900'}} className='text-orange-500 text-lg'>History Of</p>
-            <p style={{fontFamily: 'cheeseburgaregular'}} className='text-4xl text-white'>Alabay</p>
-            <p style={{fontFamily: 'Kumbh Sans'}} className='font-bold text-xs text-right'>The Central Asian Shepherd Dog, also known as Alabay, has been a guardian of livestock and property for centuries. Originating from Central Asia, these dogs are renowned for their courage, strength, and loyalty.</p>
+          <div className='flex flex-col justify-start gap-8 items-end pr-8 pl-16 w-3/4'>
+            <p style={{fontFamily: 'Montserrat', fontWeight: '900'}} className='text-orange-500 text-5xl'>History Of</p>
+            <p style={{fontFamily: 'cheeseburgaregular'}} className='text-9xl text-white'>Alabay</p>
+            <p style={{fontFamily: 'Kumbh Sans'}} className='font-bold text-2xl text-right'>The Central Asian Shepherd Dog, also known as Alabay, has been a guardian of livestock and property for centuries. Originating from Central Asia, these dogs are renowned for their courage, strength, and loyalty.</p>
           </div>
         </div>
       </div>

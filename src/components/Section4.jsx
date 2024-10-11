@@ -10,12 +10,12 @@ const Section4 = () => {
     ]
     return (
 
-        <div className='relative flex text-xs font-extrabold gap-1 p-16 text-center text-white top-[-95%]' style={{fontFamily: 'Montserrat'}}>
+        <div className='relative flex text-xs font-extrabold gap-1 p-16 text-center text-white top-[-65%]' style={{fontFamily: 'Montserrat'}}>
             {items.map((item, index) => {
                 return(
                 <div
                 key={index}
-                className={`flex flex-col items-center py-2 px-1 leading-tight ${index===0 ? 'rounded-tl-xl' : 'rounded-none'} ${index===items.length-1 ? 'rounded-tr-xl' : 'rounded-none'}`}
+                className={`flex flex-col items-center py-2 px-1 leading-tight ${index===0 ? 'rounded-tl-3xl' : 'rounded-none'} ${index===items.length-1 ? 'rounded-tr-3xl' : 'rounded-none'}`}
                 style={item.style}>
                     <h1>{item.title}</h1>
                     <span style={{fontSize: '8px'}}>{item.subtitle}</span>

@@ -14,10 +14,10 @@ const Section8 = () => {
             style={{
                 ...style,
                 backgroundColor: '#353535',
-                width: '1rem',
-                height: '1.5rem',
-                padding: '0.4rem 0.2rem',
-                borderRadius: '0.2rem',
+                width: '2rem',
+                height: '3rem',
+                padding: '0.8rem 0.4rem',
+                borderRadius: '0.4rem',
                 zIndex: 1
             }}
             onClick={onClick}
@@ -39,21 +39,21 @@ const Section8 = () => {
 
 
     return (
-        <div className='relative z-20 flex flex-col justify-center items-start top-48 ml-4'>
+        <div className='relative z-20 flex flex-col justify-center items-start top-60 mt-[10%] ml-8'>
             <div style={{fontFamily: 'Montserrat'} } className='flex gap-2 mb-4'>
-                <h1 style={{color: '#FFA800', fontWeight: '900', fontSize: '12px'}} className=''>GAME</h1>
-                <h1 style={{color: '#353535', fontWeight: '900', fontSize: '12px'}} className=''>PREVIEWS</h1>
+                <h1 style={{color: '#FFA800', fontWeight: '900', fontSize: '2rem'}} className=''>GAME</h1>
+                <h1 style={{color: '#353535', fontWeight: '900', fontSize: '2rem'}} className=''>PREVIEWS</h1>
             </div>
 
-            <div className='w-full pr-24 pb-24'>
+            <div className='w-full pr-96 rounded-2xl'>
                 <Slider {...settings}>
-                    <div className='p-2'>
+                    <div className='p-4'>
                         <img className='w-full h-full object-cover' src={assets.artifacts} alt="artifacts" />
                     </div>
-                    <div className='p-2'>
+                    <div className='p-4'>
                         <img className='w-full h-full object-cover' src={assets.abilities} alt="abilities" />
                     </div>
-                    <div className='p-2'>
+                    <div className='p-4'>
                         <img className='w-full h-full object-cover' src={assets.alabay_guard} alt="alabay_guard" />
                     </div>
                 </Slider>

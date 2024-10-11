@@ -6,7 +6,7 @@ const Section3 = () => {
     <div className='relative flex flex-col justify-center items-center z-0'>
         
         {/* Title */}
-        <div className='text-4xl'
+        <div className='text-9xl'
         style={
             {
             fontFamily: 'cheeseburgaregular',
@@ -25,7 +25,7 @@ const Section3 = () => {
             className='rounded-lg overflow-hidden'
                 style={{
                 position: 'absolute',
-                top: '7%',
+                top: '9%',
                 left: '-8%',
                 right: '-13%',
                 bottom: '40%',
@@ -58,30 +58,30 @@ const Section3 = () => {
                         </div>
                     </div>
 
-                    <div className='relative text-center px-4 mt-[-50%]'>
+                    <div className='relative text-center px-16 mt-[-50%] mb-36'>
                         <p style={{
                             color: '#353535',
                             fontFamily: 'Kumbh Sans'
                         }}
-                        className='text-xs font-bold'>
+                        className='text-3xl font-bold'>
                             Our mission is to honor the heritage of the Alabay by creating a vibrant, loyal, and powerful community. Just as the Alabay protects its flock, we aim to build a pack that stands strong together.
                         </p>
                     </div>
 
                 </div>
 
-                <div className='text-4xl text-white ml-4 my-8'
+                <div className='text-9xl text-white ml-8 my-16'
                 style={{ fontFamily: 'cheeseburgaregular'}}>
                     <p>Road Map</p>
                 </div>
 
-                <div className='relative mt-[-15%] flex justify-center'>
+                <div className='relative flex justify-center'>
                     
-                    <div style={{color: '#353535', fontFamily: 'Kumbh Sans'}} className='flex flex-col p-4 mt-24 text-xs font-bold'>
+                    <div style={{color: '#353535', fontFamily: 'Kumbh Sans'}} className='flex flex-col p-16 w-3/5 mt-24 text-4xl font-bold'>
                         <p>
                         Our journey is just beginning. Explore our roadmap to see the exciting milestones and future plans we have in store.
                         </p>
-                        <span className='text-yellow-400 mt-2'>Join us as we grow and achieve new heights.</span>
+                        <span style={{color: '#FFA800'}} className='mt-2'>Join us as we grow and achieve new heights.</span>
                     </div>
                     
                     <div className='relative overflow-hidden'>

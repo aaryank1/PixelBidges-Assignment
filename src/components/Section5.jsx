@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Section5 = () => {
   return (
-    <div className='relative z-10 top-[-100%]'>
+    <div className='relative z-10 top-[-80%]'>
         <div className="relative overflow-hidden">
 
         {/* Background rotated by 8 degrees*/}
@@ -25,31 +25,31 @@ const Section5 = () => {
 
             <div className="relative z-10">
                 
-                <div className='flex justify-evenly items-start relative top-28'>
+                <div className='flex justify-evenly items-start relative top-56'>
                     <div className='flex flex-col items-center gap-16'>
-                        <h1 className='text-white text-5xl'
+                        <h1 className='text-white text-8xl'
                         style={{fontFamily: 'cheeseburgaregular'}}
                         >Tokemomics</h1>
 
-                        <div className='flex flex-col gap-2'>
+                        <div className='flex flex-col gap-4'>
 
                             <div
                             style={{fontFamily: 'Montserrat', backgroundColor: '#353535'}}
-                            className='flex flex-col text-white rounded-lg font-extrabold pl-2 pb-1 pt-1 pr-6'>
-                                <span className='text-xs'>LIQUIDITY</span>
-                                <h1 className='text-yellow-200 text-xs'>LOCKED</h1>
+                            className='flex flex-col text-white rounded-xl font-extrabold pl-4 py-4 pr-36'>
+                                <span className='text-xl'>LIQUIDITY</span>
+                                <h1 style={{color: '#FFF280'}} className='text-xl'>LOCKED</h1>
                             </div>
                             <div
                             style={{fontFamily: 'Montserrat', backgroundColor: '#353535'}}
-                            className='flex flex-col text-white rounded-lg font-extrabold pl-2 pb-1 pt-1 pr-6'>
-                                <span className='text-xs'>CONTRACT</span>
-                                <h1 className='text-yellow-200 text-xs'>RENOUNCED</h1>
+                            className='flex flex-col text-white rounded-xl font-extrabold pl-4 pb-1 pt-1 pr-6'>
+                                <span className='text-xl'>CONTRACT</span>
+                                <h1 style={{color: '#FFF280'}} className='text-xl'>RENOUNCED</h1>
                             </div>
                             <div
                             style={{fontFamily: 'Montserrat', backgroundColor: '#353535'}}
-                            className='flex flex-col text-white rounded-lg font-extrabold pl-2 pb-1 pt-1 pr-6'>
-                                <span className='text-xs'>TAXES</span>
-                                <h1 className='text-yellow-200 text-xs'>0%</h1>
+                            className='flex flex-col text-white rounded-xl font-extrabold pl-4 pb-1 pt-1 pr-6'>
+                                <span className='text-xl'>TAXES</span>
+                                <h1 style={{color: '#FFF280'}} className='text-xl'>0%</h1>
                             </div>
 
                         </div>

@@ -3,23 +3,23 @@ import { assets } from '../assets/assets'
 
 const Section9 = () => {
   return (
-    <div className='relative z-10 mt-32 flex flex-col gap-4 items-start p-4'>
-        <h1 style={{fontFamily: 'cheeseburgaregular', color: '#FFA800', fontSize: '3rem'}} >SOCIAL MEDIA LINKS</h1>
+    <div className='relative z-10 mt-48 top-24 flex flex-col gap-4 items-start p-8'>
+        <h1 style={{fontFamily: 'cheeseburgaregular', color: '#FFA800', fontSize: '4rem'}} >SOCIAL MEDIA LINKS</h1>
 
         <div className='flex justify-around items-start mt-4'>
-            <div style={{background: 'linear-gradient(0deg, rgba(65,125,241,1) 100%, rgba(128,179,255,1) 100%)', border: '3px solid #0553C8'}} className='flex px-4 py-6 rounded-xl mt-14'>
+            <div style={{background: 'linear-gradient(0deg, rgba(65,125,241,1) 100%, rgba(128,179,255,1) 100%)', border: '0.5rem solid #0553C8'}} className='flex px-4 py-6 rounded-2xl mt-44'>
                 <div className='flex flex-col gap-4'>
                     <div className='flex justify-start items-center gap-1'>
-                        <div className='flex justify-center items-center bg-black rounded-full p-1'>
-                            <img className='w-3' src={assets.twitter} alt="twitter" />
+                        <div className='flex justify-center items-center bg-black rounded-full p-3'>
+                            <img className='w-6' src={assets.twitter} alt="twitter" />
                         </div>
-                        <h1 style={{fontFamily: 'Montserrat', fontWeight: '900', fontSize: '10px', color: 'white'}}>TWITTER LINK</h1>
+                        <h1 style={{fontFamily: 'Montserrat', fontWeight: '700', fontSize: '2rem', color: 'white'}}>Twitter Link</h1>
                     </div>
                     <div className='flex justify-center items-center gap-1'>
-                    <div className='flex justify-center items-center bg-black rounded-full p-1'>
-                            <img className='w-3' src={assets.mask} alt="telegram" />
+                    <div className='flex justify-center items-center bg-black rounded-full p-3'>
+                            <img className='w-6' src={assets.mask} alt="telegram" />
                         </div>
-                        <h1 style={{fontFamily: 'Montserrat', fontWeight: '900', fontSize: '10px', color: 'white'}}>TELEGRAM LINK</h1>
+                        <h1 style={{fontFamily: 'Montserrat', fontWeight: '700', fontSize: '2rem', color: 'white'}}>Telegram Link</h1>
                     </div>
                 </div>
             </div>

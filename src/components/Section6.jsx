@@ -23,8 +23,8 @@ const Section6 = () => {
             style={
                 {...style,
                     backgroundColor: '#111',
-                    width: '1.3rem',
-                    height: '1.3rem',
+                    width: '1.6rem',
+                    height: '1.6rem',
                     paddingLeft: '0.4rem',
                     paddingRight: '0.4rem',
                     paddingTop: '0.4rem',
@@ -48,8 +48,8 @@ const Section6 = () => {
                 style={
                     {...style,
                         backgroundColor: '#111',
-                        width: '1.3rem',
-                        height: '1.3rem',
+                        width: '1.6rem',
+                        height: '1.6rem',
                         paddingLeft: '0.4rem',
                         paddingRight: '0.4rem',
                         paddingTop: '0.4rem',
@@ -99,11 +99,11 @@ const Section6 = () => {
                 fontFamily: 'cheeseburgaregular',
                 color: '#FFA800'
             }}
-            className='text-4xl relative top-5'>
+            className='text-8xl relative top-5'>
                 MERCHANDISE
             </div>
 
-            <div className='w-9/12 max-w-3xl px-8 relative z-20 top-5'>
+            <div className='w-9/12 px-8 relative z-20 top-5'>
                 <Slider ref={setSliderRef} {...settings} >
 
                     {cards.map((card, index) => {
